@@ -1,0 +1,37 @@
+/* Basic styling for header */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Desktop nav styling */
+  .desktop-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Nav link styling */
+  .desktop-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .desktop-nav a:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none; /* Hide desktop nav on smaller screens */
+    }
+  }
+  
